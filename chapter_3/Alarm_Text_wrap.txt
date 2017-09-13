@@ -1,0 +1,59 @@
+def count1=0
+def i=1
+boolean temp=0
+boolean join=0
+def joinstr=""
+def map=[:]
+
+new File ('in1.txt').eachLine { String line ->
+
+	if(line.startsWith("OSI Alarm :")){
+		count1++
+		i=1
+        temp=1
+
+	}
+	else if(line!=""&& temp ){
+		if(line.endsWith("\"") && line.contains("=") && !join){
+		println line
+		//println (line.substring(0, line.lastIndexOf(" =")))	
+		//println (line.substring(line.lastIndexOf(" =") + 3))
+		i++
+		}
+		else if(join){
+			join=0
+			println ("join")
+			println line
+
+			println ("joined")
+			line=joinstr+line
+			println line
+			i++
+		}
+		
+		else{
+
+			//println "Error hey :"
+			joinstr =line
+			println line
+			join=1
+		}
+		//println line
+		//println line
+		//println count1
+
+	}
+	else{
+		temp=0
+	}
+
+        //println i
+}
+
+println i
+println ("line reached")
+/*
+ def x= ['/bin/sh','-c',/grep -o 'OSI Alarm : Resynchronization ...' in1.txt | wc -l/].execute().text.trim()
+println x
+
+*/
