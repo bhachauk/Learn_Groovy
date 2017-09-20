@@ -6,7 +6,7 @@ import groovy.sql.GroovyRowResult
 def temp=""
 def c=0
 
-def sql = Sql.newInstance("jdbc:mysql://localhost", "root","bhachauk", "com.mysql.jdbc.Driver")
+def sql = Sql.newInstance("jdbc:mysql://localhost", "root","password", "com.mysql.jdbc.Driver")
 
 sql.execute("use tellabs")
 //sql.execute("alter table alarm add var varchar(200);")
