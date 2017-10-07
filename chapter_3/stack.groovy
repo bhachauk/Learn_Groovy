@@ -1,20 +1,34 @@
-def method (int a, Closure c) {
-    Query q = new Query()
-    q.a = a
-    c.delegate = q
+def method (String a, Closure c) {
+    Format f = new Format()
+    f.a = a
+    c.delegate = f
     c.call()
-    def str = q.str
-    println str
+    def str = f.str
 }
-class Query
+class Format
 {
     def str
     def a
-    void key (String str) {
+    void transform (String str, Closure cls) {
         this.str = str
-        println a
+       	Pass p = new Pass()
+        p.a=a
+        cls.delegate=p
+        cls.resolveStrategy = Closure.DELEGATE_FIRST
+        cls.call()
+        def val=p.a
+        println val
+
     }
+
+    class Pass
+    {
+    	String a
+    } 
 }
-method(5) {
-    key "got"
+
+method("got") {
+    transform ("got"){
+    	a=a.reverse()
+    }
 }
