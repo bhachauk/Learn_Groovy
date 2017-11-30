@@ -1,9 +1,9 @@
 <h3>HANDLING TWODDATA </h3>
-class name  : 
-<b><code></b>
+<b>Class name  : </b>
+<code>
 java.util.ArrayList 
 </code>
-<b>declaration : </b>
+<b>Init_</b>
 <code> 
 ArrayList<ArrayList<Object>> variable =new ArrayList<ArrayList<Object>>()
 </code>
