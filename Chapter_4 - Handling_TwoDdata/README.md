@@ -4,7 +4,7 @@
 <code>
 java.util.ArrayList 
 </code>
-<b>Init_</b>
+<b>Init_ : </b>
 <code> 
 ArrayList<ArrayList<Object>> variable =new ArrayList<ArrayList<Object>>()
 </code>
