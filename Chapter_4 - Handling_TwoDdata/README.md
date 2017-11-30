@@ -1,5 +1,5 @@
 <h3> HANDLING TWO_D_DATA </h3> 
-:1234: Matrices, Arrays, Chart datas, :abcd:,Tables, db-datas ..
+:1234: <pre> Matrices, Arrays, Chart datas,... </pre> :abcd: <pre>Tables, db-datas ..</pre><br>
 <b>Class name  : </b>
 <code>
 java.util.ArrayList 
