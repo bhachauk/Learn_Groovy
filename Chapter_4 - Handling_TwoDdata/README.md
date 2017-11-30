@@ -1,12 +1,12 @@
 <h3>HANDLING TWODDATA </h3>
 class name  : 
-```javascript 
+<b><code></b>
 java.util.ArrayList 
-``` 
-declaration : 
-```javascript 
+</code>
+<b>declaration : </b>
+<code> 
 ArrayList<ArrayList<Object>> variable =new ArrayList<ArrayList<Object>>()
-```
+</code>
 <h5>SCOPE </h5>
 <pre> Making more useful code snippets for twodimensional data handling, Matrix operations and data extraction. </pre>
   <h5> List of codes </h5>
