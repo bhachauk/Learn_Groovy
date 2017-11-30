@@ -1,4 +1,4 @@
-<h3>HANDLING TWODDATA </h3>
+<h3>HANDLING TWO_D_DATA </h3>
 <b>Class name  : </b>
 <code>
 java.util.ArrayList 
