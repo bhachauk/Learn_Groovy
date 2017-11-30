@@ -1,3 +1,3 @@
-![groovy](https://en.wikipedia.org/wiki/Groovy_(programming_language)#/media/File:Groovy-logo.svg)
+![groovy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/614px-Groovy-logo.svg.png)
 # learn_Groovy
 Started to learn groovy_now.
