@@ -26,21 +26,12 @@ new MarkupBuilder(writer).root {
                     //def value="$value" (k)
                     value[idx] =(k)
                     return(null)
-
                 }
                 def j=value[idx]
                 "$j" (k)
-                
-
-
-
-
             }
         	i=2;
         } 
-
-
     }
 }
-
 println writer.toString()
