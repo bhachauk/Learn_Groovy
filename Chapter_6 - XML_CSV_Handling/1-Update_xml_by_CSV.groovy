@@ -6,8 +6,6 @@ int i=1;
 value=[]
 out=[]
 cont=[]
-att=("att")
-id="id"
 df = new FileReader(csv)
 def writer = new StringWriter()
 def data = parseCsv(df, readFirstLine: true)
@@ -27,5 +25,4 @@ new MarkupBuilder(writer).root {
     }
 }
 def f = new File("attr.xml") // Updated new file created in current directory.
-println writer.toString()
 f.write (writer.toString())
