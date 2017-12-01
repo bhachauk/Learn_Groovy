@@ -1,6 +1,8 @@
+// For file operations 
 import java.io.File
 import java.io.IOException
 
+// For excel operations 
 import jxl.*
 import jxl.Workbook
 import jxl.Sheet
@@ -10,8 +12,10 @@ import jxl.WorkbookSettings
 WorkbookSettings wbSettings = new WorkbookSettings()
 wbSettings.setSuppressWarnings(true);
 
+// Reading file
 Workbook wb = Workbook.getWorkbook(new File("test.xls"));
-println wb.getNumberOfSheets()
+// Total number of Sheets in file
+println "Excel file contains "+wb.getNumberOfSheets()+" Number of Sheets"
 
 String [] sheetNames = wb.getSheetNames();
     
@@ -21,9 +25,9 @@ for (int sno = 0 ; sno < sheetNames.length ; sno ++ ) {
 		int totalNoOfRows = sh.getRows();
 		int totalNoOfCols = sh.getColumns();
 
-		println sheetNames[sno];
-		println "rows: " + totalNoOfRows
-		println "columns :"+ totalNoOfCols
+		println "sheetname : "sheetNames[sno];
+		println "rows      : " + totalNoOfRows
+		println "columns   : "+ totalNoOfCols
 
 		for(int i=0;i<totalNoOfRows;i++){
 		def column_fields =[]
@@ -36,6 +40,4 @@ for (int sno = 0 ; sno < sheetNames.length ; sno ++ ) {
 			println column_fields
 		}
 }
-    
-    //Close and free allocated memory 
 wb.close(); 
