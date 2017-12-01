@@ -16,28 +16,25 @@ println wb.getNumberOfSheets()
 String [] sheetNames = wb.getSheetNames();
     
 for (int sno = 0 ; sno < sheetNames.length ; sno ++ ) {
-
-        println sheetNames[sno];
+	
         Sheet sh = wb.getSheet(sno);
 		int totalNoOfRows = sh.getRows();
 		int totalNoOfCols = sh.getColumns();
-		def column_fields =[]
+
+		println sheetNames[sno];
+		println "rows: " + totalNoOfRows
+		println "columns :"+ totalNoOfCols
 
 		for(int i=0;i<totalNoOfRows;i++){
+		def column_fields =[]
 
 			for(int j=0;j<totalNoOfCols;j++){
 
 				Cell curr_cell= sh.getCell(j, i);
 				column_fields=column_fields.add(curr_cell.getContents())
-
-
 			}
-			print '\n'
+			println column_fields
 		}
-
-		println "rows: " + totalNoOfRows
-		println "columns :"+ totalNoOfCols
-
 }
     
     //Close and free allocated memory 
