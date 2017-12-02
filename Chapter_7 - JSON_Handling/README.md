@@ -13,5 +13,5 @@
    <code>{"employee":{ "name":"John", "age":30, "city":"New York" }}</code> <pre> Here the Object always starts with </pre> <code> { "employee": {  </code>
 4. Array
 5. Boolean
-6. Null
+6. Null <br>
 [source](https://www.json.org/)
