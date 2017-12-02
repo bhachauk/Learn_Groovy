@@ -11,3 +11,7 @@
    <code> { "id":3 } </code> <pre> 3 is the Integer value </pre>
 3. Object <br>
    <code>{"employee":{ "name":"John", "age":30, "city":"New York" }}</code> <pre> Here the Object always starts with </pre> <code> { "employee": {  </code>
+4. Array
+5. Boolean
+6. Null
+[source](https://www.json.org/)
