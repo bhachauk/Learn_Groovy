@@ -1,5 +1,5 @@
 #### CHAPTER 1 : GROOVY BASICS  <br> 
-:green_book: Initiative codes
+:green_book: Initiative codes :octocat:
 <ol>
 <li>HelloWorld</li><pre>Traditional Start with printing "Hello World"</pre>
 <li>Dir_File_Display</li><pre>Displays all files in the directory</pre>
