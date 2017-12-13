@@ -5,3 +5,10 @@
 <li>Dir_File_Display</li><pre>Displays all files in the directory</pre>
 <li>Check_File</li><pre>Check a file is really in current directory</pre>
 </ol>
+#### List Basic :
+```groovy
+list.each { println it}        // Iterates
+list.any { it instanceof String }    // Return boolean
+list.retainAll { it instanceof String } // Return filtered list
+list.removeIf { it==null } // Return filtered list
+```
