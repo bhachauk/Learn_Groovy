@@ -5,7 +5,8 @@
 <li>Dir_File_Display</li><pre>Displays all files in the directory</pre>
 <li>Check_File</li><pre>Check a file is really in current directory</pre>
 </ol>
-#### List Basic :
+
+#### List Basic :<br>
 ```groovy
 list.each { println it}        // Iterates
 list.any { it instanceof String }    // Return boolean
