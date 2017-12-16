@@ -13,3 +13,8 @@ list.any { it instanceof String }    // Return boolean
 list.retainAll { it instanceof String } // Return filtered list
 list.removeIf { it==null } // Return filtered list
 ```
+#### MAP BASICS : <br>
+1. Modify_Map
+```groovy
+map.keySet().each{ map[it]=map[it].minus(filter_list)}
+```
