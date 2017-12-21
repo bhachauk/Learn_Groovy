@@ -1,1 +1,1 @@
-#### Methods, Closures, Classes Usages :
+### METHODS, CLOSURES, CLASSES
