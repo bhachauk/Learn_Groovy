@@ -1,0 +1,8 @@
+{
+  "name": "Learn_Groovy",
+  "description": "Examples and Snippets of simple groovy scripts",
+  "dependencies": {
+    "groovy": "^2.4.11"
+    "java"  : "^1.8.0"
+    }
+}
