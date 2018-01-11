@@ -11,6 +11,7 @@ A Groovy script can be run by `java` by adding classpath like shown above code.
 
 ### How to run this dynamic java ?
 Normal line like `print` by PYTHON, can run in groovy.
+*hello.groovy*
 ```groovy
 println 'Hello_world'
 ```
