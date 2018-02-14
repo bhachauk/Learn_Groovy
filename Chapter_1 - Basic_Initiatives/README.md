@@ -18,7 +18,7 @@ if(list1.any{val1-> list2.contains(val1)}) // list check list
 ##### List Basic Methods : <br>
 ```groovy
 
-List<String> changeToInt (List<String> input)
+List<Integer> changeToInt (List<Object> input)
 {
 	return input.collect { it=it.toInteger()}
 }
