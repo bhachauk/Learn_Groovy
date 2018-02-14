@@ -13,7 +13,18 @@ list.any { it instanceof String }    // Return boolean
 list.retainAll { it instanceof String } // Return filtered list
 list.removeIf { it==null } // Return filtered list
 if(list1.any{val1-> list2.contains(val1)}) // list check list
+
 ```
+##### List Basic Methods : <br>
+```groovy
+
+List<String> changeToInt (List<String> input)
+{
+	return input.collect { it=it.toInteger()}
+}
+
+```
+
 #### Sorting With Space_Ship :rocket: Operator :
 <pre> In List Sort Example : </pre>
 ```groovy
