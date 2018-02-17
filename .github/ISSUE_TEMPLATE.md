@@ -9,13 +9,19 @@
   * OS version: _____
   * SDK version: _____
   
-### Step 3: Describe the problem:
+### Step 3: Describe the problem :
 
-#### Steps to reproduce:
+#### Paste the Link-URL  You have studied :
 
-  1. _____
-  2. _____
-  3. _____
+  * The Link of a Reference.
+
+#### Paste Your Code:
+  
+  ```Groovy Code 
+  
+    //Paste Your Code 
+  
+  ```
   
 #### Observed Results:
 
@@ -23,10 +29,4 @@
   
 #### Expected Results:
 
-  * What did you expect to happen?
-  
-#### Relevant Code:
-
-  ```
-  // TODO(you): code here to reproduce the problem
-  ```
+  * What did you expect to happen?  
