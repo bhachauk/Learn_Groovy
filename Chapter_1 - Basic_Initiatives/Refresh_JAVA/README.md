@@ -1,5 +1,5 @@
 #### JAVA PACKAGING
-This session will refresh you about the **JAVA pACKAGING**. Let's start with the example scenario,
+This session will refresh you about the **JAVA Packaging**. Let's start with the example scenario,
 
 ##### STEPS :
 
