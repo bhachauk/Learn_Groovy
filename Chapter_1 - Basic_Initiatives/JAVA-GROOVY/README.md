@@ -38,7 +38,7 @@ public class B {
  ```
  - After the successful compilation, 
  ```
- java testpackage.TestPackageClass
+ java pack1.B
  ```
  #### GROOVY PACKAGING
  
@@ -79,5 +79,5 @@ println 'This is imported B :'+B.name
  ```
  - After the successful compilation, You can execute this class using `groovy-all-2.4.13.jar`
  ```
-  testpackage.TestPackageClass
+ java -cp .:groovy-all-2.4.13.jar groovypack.C
  ```
