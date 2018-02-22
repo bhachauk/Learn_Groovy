@@ -4,14 +4,14 @@ This session will refresh you about the **JAVA pACKAGING**. Let's start with the
 ##### STEPS :
 
  - Create file `A.class` in the directory `./pack`.
- ```
+ ```java
 package pack;
 public class A {
     public static String NAME = "this is A";
 }
  ```
  - Create file `B.class` in the directory `./pack1`.
- ```
+ ```java
  package pack1;
 
 import pack.A;
