@@ -10,10 +10,11 @@ java -cp 'src/../lib/*' groovy.ui.GroovyMain code.groovy
 A Groovy script can be run by `java` by adding classpath like shown above code.
 
 ### How to run this dynamic java ?
-Normal line like `print` by PYTHON, can run in groovy.
-*hello.groovy*
+Normal print line code like `print` by PYTHON, can be executed from the file `hello.groovy`,
 ```groovy
 println 'Hello_world'
 ```
 To run this code execute the cli command,
-`groovy hello.groovy`
+```sh
+groovy hello.groovy
+```
