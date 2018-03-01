@@ -28,5 +28,3 @@
 A simple TCP/IP Session has been implemented in a logical port and can read/write (Means Normal chat :)).
 
 Using Groovy/Java you can implement a code to read/write for any requirments.
-
-For simple snippets about this *Socket Programming* , view my [Learn_Groovy](https://github.com/Bhanuchander210/Learn_Groovy/tree/master/Chapter_1%20-%20Basic_Initiatives/Socket) repo.
