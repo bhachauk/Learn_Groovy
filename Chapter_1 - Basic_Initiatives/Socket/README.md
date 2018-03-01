@@ -22,7 +22,7 @@
   ```sh
    telnet localhost 10000
   ```
-<br>
+
 ##### Thats it ...! We Done
 
 A simple TCP/IP Session has been implemented in a logical port and can read/write (Means Normal chat :)).
