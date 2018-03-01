@@ -9,8 +9,8 @@
  ```sh
   nc -l 10000
  ```
- Here 10000 is a logical Port. You can assign `2 ^ 16` Ports. But some are default ports already.
- This means the service started over network on the port. A normal `man nc` briefs about it.
+ > Here 10000 is a logical Port. You can assign `2 ^ 16` Ports. But some are default ports already.
+ > This means the service started over network on the port. A normal `man nc` briefs about it.
  
  2. Now Connect using **Telnet** from the Machine B (or) local machine (Machine A):
     
