@@ -6,6 +6,14 @@
 <li>Check_File</li><pre>Check a file is really in current directory</pre>
 </ol>
 
+#### String Index Basics : <br>
+
+```
+ assert 17 == './removehey/fshls/sfsl'.lastIndexOf('/')
+
+ assert 17 == './removehey/fshls/sfsl'.indexOf('/',12)
+```
+
 #### List Basic :<br>
 ```groovy
 list.each { println it}        // Iterates
