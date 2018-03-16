@@ -23,4 +23,10 @@ class Exec{
         def exectuion =cmd.execute()
         exectuion.waitForProcessOutput(System.out, System.err)
     }
+    
+    def exec_piped_list (List <String> join_list)
+    {
+	    return join_list*.execute().inject{a,b -> a | b}
+    }
+
 }
