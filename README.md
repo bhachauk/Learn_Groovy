@@ -23,14 +23,14 @@ groovy hello.groovy
 
 ```groovy
 // File: Sample.groovy
-package com.mrhaki.blog
+package io.github.bhanuchander210.learnGroovy
 println 'Hello from Groovy'
 ```
  Initially This packages should be compiled from the command `groovyc` and it can be run from `java` like shown below.
 
 ```exec
 $ groovyc Sample.groovy
-$ java -cp .:$GROOVY_HOME/embeddable/groovy-all-1.6.5.jar com.mrhaki.blog.Sample
+$ java -cp .:$GROOVY_HOME/embeddable/groovy-all-1.6.5.jar io.github.bhanuchander210.learnGroovy.Sample
 Hello from Groovy
 ```
 Refered from [Source](http://mrhaki.blogspot.in/).
