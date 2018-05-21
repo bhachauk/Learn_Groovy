@@ -37,4 +37,4 @@ For Groovy and Java Packaging discussed inside the [Chapter 1. Basic Initiatives
 
 Thanks to :
 
-- [haki](#http://mrhaki.blogspot.in/)
+- [haki](http://mrhaki.blogspot.in/)
