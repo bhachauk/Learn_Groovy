@@ -33,5 +33,8 @@ $ groovyc Sample.groovy
 $ java -cp .:$GROOVY_HOME/embeddable/groovy-all-1.6.5.jar io.github.bhanuchander210.learnGroovy.Sample
 Hello from Groovy
 ```
-Refered from [Source](http://mrhaki.blogspot.in/).
 For Groovy and Java Packaging discussed inside the [Chapter 1. Basic Initiatives/GROOVY-JAVA](/Chapter_1%20-%20Basic_Initiatives/JAVA-GROOVY/README.md)
+
+Thanks to :
+
+- [HAKI](#http://mrhaki.blogspot.in/)
