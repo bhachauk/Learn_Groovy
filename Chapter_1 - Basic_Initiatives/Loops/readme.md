@@ -47,3 +47,13 @@ for (String letter : alphabets)
 	println letter
 }
 ```
+
+Style 4:
+
+```groovy
+10.times{
+	println 'Iteration : '+ it
+}
+```
+
+Ref : [link](http://grails.asia/groovy-for-loop-examples)
