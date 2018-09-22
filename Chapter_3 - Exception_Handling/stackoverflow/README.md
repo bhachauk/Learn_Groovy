@@ -14,8 +14,9 @@ def callMe()
 
 ```
 
-Here a method called infinite time. But it doesn't leads to the **stackoverflowError**. Here this is a another 
-program,
+Here a method called infinite time. But it does not lead to the `stackoverflowError`. 
+
+Here let's see another Groovy program,
 
 ```groovy
 temp = 1
@@ -30,7 +31,7 @@ def callMe()
 }
 ```
 
-This will leads us to **stackOverflowError**. The concept is **recursion**. 
+This will leads us to `stackOverflowError`. The concept is **recursion** which leads to this scenario. 
 
 - Instead of infinite loop, you have infinite (or very deep) recursion (function invoking itself), then you will get stack overflow. Whenever a function is invoked, some part of stack memory is consumed. Once all the stack is exhausted, you get - stack overflow error.
 
