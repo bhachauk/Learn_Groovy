@@ -31,7 +31,7 @@ def callMe()
 }
 ```
 
-This will leads us to `stackOverflowError`. The concept is **recursion** which leads to this scenario. 
+This will leads us to `stackOverflowError`. The concept is **recursion**. 
 
 - Instead of infinite loop, you have infinite (or very deep) recursion (function invoking itself), then you will get stack overflow. Whenever a function is invoked, some part of stack memory is consumed. Once all the stack is exhausted, you get - stack overflow error.
 
