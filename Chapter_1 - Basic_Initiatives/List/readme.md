@@ -16,13 +16,24 @@ List<Integer> changeToInt (List<Object> input)
 {
 	return input.collect { it=it.toInteger()}
 }
+```
 
+### Group By:
+---
+
+```groovy
 // Used to Group by a List
 
 Map groupby (List<Object> fieldvalues)
 {
 	def groupbymap = fieldvalues.inject([:]) { groupbymap, x -> if (!groupbymap[x]) groupbymap[x] = 0; groupbymap[x] += 1; groupbymap }
 }
+
+//Simple Way :
+
+a = [1,2,3,1,1,2]
+
+a.groupBy().collect{k,v -> ["$k" : v.size()]}
 
 ```
 
