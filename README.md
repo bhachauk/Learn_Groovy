@@ -47,3 +47,11 @@ Thanks to :
 
 - [groovydoc](http://groovy-lang.org/documentation.html)
 - [haki](http://mrhaki.blogspot.in/)
+
+
+##### Notes :
+---
+
+This repository may covers simple basic areas. I am collecting these areas with quick 
+understandable code-snippets, whenever i have free times. If any area not covered it will be updated or
+help me to improve this repo by your contribution.
