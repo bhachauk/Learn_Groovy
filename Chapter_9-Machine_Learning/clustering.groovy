@@ -6,7 +6,7 @@ import org.apache.commons.math3.ml.clustering.FuzzyKMeansClusterer
 import org.apache.commons.math3.ml.clustering.KMeansPlusPlusClusterer
 import org.apache.commons.math3.ml.clustering.MultiKMeansPlusPlusClusterer
 import static com.xlson.groovycsv.CsvParser.parseCsv
-df = new FileReader('/home/bhanuchander/Downloads/temperature.csv')
+df = new FileReader('data.csv')
 Map<String, double[]> dfMap = [:]
 for (line in parseCsv (df))
 {
