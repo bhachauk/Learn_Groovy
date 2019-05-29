@@ -5,8 +5,9 @@ import org.apache.commons.math3.ml.clustering.DoublePoint
 import org.apache.commons.math3.ml.clustering.FuzzyKMeansClusterer
 import org.apache.commons.math3.ml.clustering.KMeansPlusPlusClusterer
 import org.apache.commons.math3.ml.clustering.MultiKMeansPlusPlusClusterer
+import org.apache.commons.math3.ml.clustering.CentroidCluster
 import static com.xlson.groovycsv.CsvParser.parseCsv
-df = new FileReader('data.csv')
+df = new FileReader('/home/bhanuchander/course/Learn_Groovy/Chapter_9-Machine_Learning/data.csv')
 Map<String, double[]> dfMap = [:]
 for (line in parseCsv (df))
 {
@@ -76,9 +77,10 @@ class ClusterWork
         KMeansPlusPlusClusterer kMean = new KMeansPlusPlusClusterer(k)
         collectDetails kMean.cluster(this.points)
     }
-    private List<ClusterDetail> collectDetails(def clusters)
+    private List<ClusterDetail> collectDetails( List<CentroidCluster> clusters)
     {
         List<ClusterDetail> ret = []
+//        println clusters.class.name
         clusters.eachWithIndex{ c, ci ->
             c.getPoints().each { pnt ->
                 DoublePoint pt = pnt as DoublePoint
