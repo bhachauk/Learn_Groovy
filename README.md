@@ -16,6 +16,21 @@ java -cp .:groovy-2.4.13.jar groovy.ui.GroovyMain Code.groovy
 A Groovy script can be run by `java` by adding classpath like shown above code.
 Refer More with the official [Groovy doc](http://groovy-lang.org/documentation.html).
 
+### How to setup in local ?
+
+Download the latest [Groovy binary](http://groovy-lang.org/download.html#distro) from the official page.
+**Unzip:**
+```$xslt
+unzip apache-groovy-binary-*.*.*.zip
+```
+Place this code on `~/.bashrc` or run directly on console.
+
+**Environment**
+```$xslt
+export GROOVY_HOME=/path/to/uzip
+export PATH=$PATH:$GROOVY_HOME/bin
+```
+
 ### How to run this Dynamic java ?
 Normal print line code like `print` by PYTHON, can be executed from the file `hello.groovy`,
 
